@@ -26,7 +26,7 @@ This project uses facial recognition technology to track attendance in real-time
 ### Installation
 
 1. Clone the repo
-2. Install the required libraries
+2. Install the required libraries ( cv2, face_recognition, firebase_admin, datetime, os, numpy and cvzone )
 3. Create a Firebase project and generate a service account key download it and store it in the same folder as the entire project (more about this step is given below in details)
 4. Copy the link to your Firebase Realtime Database and Firebase Storage into the code. ( more about this step is given below in details)
 
