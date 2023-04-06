@@ -61,7 +61,8 @@ In my code, you can then replace the URL placeholders with the URLs that you cop
 these lines of code below will be found (right after import statements ) in all the 3 python files namely `app.py`, `encodegenerator.py`, `addDataTodatabse.py` :
 
 cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred,
+
+```firebase_admin.initialize_app(cred,
                               {
                                   'databaseURL': "https://your-project-name-default-rtdb.firebaseio.com/",
                                   'storageBucket': "your-project-name.appspot.com"
