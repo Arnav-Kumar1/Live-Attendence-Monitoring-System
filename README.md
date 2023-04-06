@@ -66,6 +66,7 @@ firebase_admin.initialize_app(cred,
                               {
                                   'databaseURL': "https://your-project-name-default-rtdb.firebaseio.com/",
                                   'storageBucket': "your-project-name.appspot.com"
-                              })```
+                              })
+```
                               
-the structure of the links which you need to copy and paste in all the 3 files in given in the above code template.
+The structure of the links which you need to copy-paste and template of the code is given in the above.
