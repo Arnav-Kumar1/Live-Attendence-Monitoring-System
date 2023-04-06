@@ -4,7 +4,7 @@ Live Attendance Tracker
 
 ## Project Description
 
-This project uses facial recognition technology to track attendance in real-time. It captures the face of the students ( elon musk and amber heard🤣) and matches it with the stored images of students to mark their attendance in real time in firebase database.
+This project uses facial recognition technology to track attendance in real-time. It captures the face of the students ( elon musk and amber heard🤣) and matches it with the stored images of students to mark their attendance in real time in firebase database. The same face can be detected again only after an interval of 15 seconds
 
 ## Technologies Used
 
