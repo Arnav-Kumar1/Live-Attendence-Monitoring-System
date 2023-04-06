@@ -1,6 +1,6 @@
 # Live-Attendence-Monitoring-System
-##The project will not work without a service key, follow the instructions below to generate your own as i cant provide mine as it is confidential
-##here are the steps:
+## The project will not work without a service key, follow the instructions below to generate your own as i cant provide mine as it is confidential
+## here are the steps:
 
 Go to the Firebase Console and select the project that you want to work with.
 Click on the gear icon in the top left corner of the screen and select "Project settings" from the dropdown menu.
