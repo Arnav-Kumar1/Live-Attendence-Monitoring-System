@@ -33,7 +33,7 @@ This project uses facial recognition technology to track attendance in real-time
 ### Usage
 
 1. Add images of students  to the `images` folder
-2. Once you have added the images of all the students to the image folder (there are currently only 2 images), you should include their current data into the adddataToDatabase.py Python file. Afterwards, execute the same file `adddataToDatabase.py` to insert the data for all the students into your firebase realtime database.
+2. Once you have added the images of all the students to the image folder (there are currently only 2 images), you should include their current data into the `adddataToDatabase.py` Python file. Afterwards, execute the same file `adddataToDatabase.py` to insert the data for all the students into your firebase realtime database.
 2. Run the script `Encodegenerator.py` to generate encodings of the images
 3. Run the script `Attendancetracker.py` to start tracking attendance
 
