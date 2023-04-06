@@ -42,23 +42,23 @@ This project uses facial recognition technology to track attendance in real-time
 
 
 ## Installation - Step 3:
-1.Go to the Firebase Console and select the project you want to work with or create a new one.
-2.Click on the gear icon in the top left corner and select "Project settings" from the dropdown menu.
-3.In the "Project settings" screen, go to the "Service accounts" tab.
-4.Click on the "Generate new private key" button to generate a new service account key.
-5.Save the key to a safe location on your computer.
-6.Add the file path to your service account key as an environment variable in your local development environment or deployment environment. This step is optional
+1. Go to the Firebase Console and select the project you want to work with or create a new one.
+2. Click on the gear icon in the top left corner and select "Project settings" from the dropdown menu.
+3. In the "Project settings" screen, go to the "Service accounts" tab.
+4. Click on the "Generate new private key" button to generate a new service account key.
+5. Save the key to a safe location on your computer.
+6. Add the file path to your service account key as an environment variable in your local development environment or deployment environment. This step is optional
 do this only if the app gives any error related to service key.
 
 
 ## installation step 4:
 
-1.Go to the Firebase Console and select the project that you want to work with.
-2.For the Realtime Database, click on the "Realtime Database" tab on the left sidebar and copy the URL at the top of the page.
-3.For the Storage, click on the "Storage" tab on the left sidebar and copy the URL at the top of the page.
+1. Go to the Firebase Console and select the project that you want to work with.
+2. For the Realtime Database, click on the "Realtime Database" tab on the left sidebar and copy the URL at the top of the page.
+3. For the Storage, click on the "Storage" tab on the left sidebar and copy the URL at the top of the page.
 In my code, you can then replace the URL placeholders with the URLs that you copied:
 
-these lines of code below wil be found (right after import statements ) in all the 3 python files namely app.py, encodegenerator.py, addDataTodatabse.py :
+these lines of code below will be found (right after import statements ) in all the 3 python files namely `app.py`, `encodegenerator.py`, `addDataTodatabse.py` :
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,
