@@ -58,7 +58,7 @@ do this only if the app gives any error related to service key.
 3. For the Storage, click on the "Storage" tab on the left sidebar and copy the URL at the top of the page.
 In my code, you can then replace the URL placeholders with the URLs that you copied:
 
-these lines of code below will be found (right after import statements ) in all the 3 python files namely `app.py`, `encodegenerator.py`, `addDataTodatabse.py` :
+These lines of code below will be found (right after import statements ) in all the 3 python files namely `app.py`, `encodegenerator.py`, `addDataTodatabse.py` :
 
 ```cred = credentials.Certificate("serviceAccountKey.json")
 
